@@ -76,7 +76,7 @@ Game.prototype._renderIndicators = function () {
     }
 }
 
-Game.prototype._onKeyDown = function() {
+Game.prototype._onKeyDown = function(event) {
     switch (event.keyCode) {
         case 37:
         case 38:
@@ -87,7 +87,7 @@ Game.prototype._onKeyDown = function() {
     }
 }
 
-Game.prototype._onKeyUp = function() {
+Game.prototype._onKeyUp = function (event) {
 
     switch (event.keyCode) {
         case 37:
