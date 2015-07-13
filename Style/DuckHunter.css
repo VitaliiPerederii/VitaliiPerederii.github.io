@@ -1,0 +1,10 @@
+body{
+}
+
+#myCanvas {
+    display: block;
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+    cursor: url('../Res/aim.png'), auto;
+}
