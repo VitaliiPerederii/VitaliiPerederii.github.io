@@ -64,7 +64,7 @@ function Duck() {
 
     if (!Duck.sprite) {
         Duck.sprite = new Image(1200, 342);
-        Duck.sprite.src = '../DuckHunter/Res/duck.png';
+        Duck.sprite.src = 'duck.png';
     }
 
     this._size.cx = Duck.sprite.width / Duck.prototype.STEP_COUNT;
